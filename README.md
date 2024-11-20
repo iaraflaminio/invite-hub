@@ -1,1 +1,2 @@
 # invite-hub
+This is a work-in-progress project from the Cod3r course track. Together with the amazing professor Leonardo Leitão, we are building a system for creating events and sending online invitations
