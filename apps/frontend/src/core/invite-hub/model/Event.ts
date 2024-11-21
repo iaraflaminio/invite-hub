@@ -1,3 +1,5 @@
+import Guest from "./Guest";
+
 export default interface Event {
     id: string;
     alias: string;
@@ -9,4 +11,5 @@ export default interface Event {
     image: string;
     backgroundImage: string;
     expectedAudience: number;
+    guests: Guest[];
   }
