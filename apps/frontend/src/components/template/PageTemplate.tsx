@@ -12,8 +12,10 @@ export default function PageTemplate(props: PageTemplateProps) {
             bg-[url('/background.png')] bg-cover
         ">
             <Logo /> 
-            <main className={props.className}>
-                {props.children}
+            <main className={`
+                flex-1 flex flex-col justify-center py-10
+                container ${props.className}`}> 
+                {props.children} 
             </main>
         </div>
     )
