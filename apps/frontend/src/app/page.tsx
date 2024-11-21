@@ -1,3 +1,9 @@
+import PageTemplate from "@/components/template/PageTemplate";
+
 export default function Home() {
-    return <div>Home</div>
+    return (
+    <PageTemplate>
+      <div>Home</div>
+    </PageTemplate>
+  )
   }
