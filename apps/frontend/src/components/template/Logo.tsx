@@ -1,4 +1,5 @@
 import { Righteous } from 'next/font/google'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const font = Righteous({
@@ -9,7 +10,11 @@ const font = Righteous({
 export default function Logo() {
     return (
         <Link href="/" className={` flex items-center gap-2 ${font.className} `}>
-            <span>Logo</span>
+             <Image src="/logo.svg" width={50} height={50} alt="Logo" /> 
+            <h1 className='flex flex-col items-center text-lg  leading-5'>
+                <div>INVIT<span className='text-blue-500'>3</span></div>
+                <div>HUB</div>
+            </h1>
         </Link>
     )
 }
