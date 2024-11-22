@@ -1,2 +1,4 @@
 import Id from "./Id";
-export {Id};
+import Alias from "./Alias";
+import Password from "./Password";
+export {Id, Alias, Password};
