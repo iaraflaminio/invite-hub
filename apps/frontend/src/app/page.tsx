@@ -1,4 +1,5 @@
 import Logo from "@/components/template/Logo";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         Create and manage your event invitation quickly and easily!
         </p>
       </div>
+      <Link href="/event">Create your event</Link>
     </div>
   )
 };
