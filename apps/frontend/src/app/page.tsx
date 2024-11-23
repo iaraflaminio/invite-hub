@@ -8,7 +8,7 @@ export default function Home() {
       
       <div>
         <Logo />
-        <p className="text-zinc-500 font-light w-96 leading-6">
+        <p className="text-zinc-500 font-light w-96 leading-6 text-center">
         Create and manage your event invitation quickly and easily!
         </p>
       </div>
