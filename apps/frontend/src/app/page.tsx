@@ -12,7 +12,7 @@ export default function Home() {
         Create and manage your event invitation quickly and easily!
         </p>
       </div>
-      <Link href="/event">Create your event</Link>
+      <Link href="/event" className="button blue text-lg uppercase">Create your event</Link>
     </div>
   )
 };
